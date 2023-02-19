@@ -40,7 +40,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
-##CONFIGURE TABLES
+##CONFIGURE MODELS TABLE
 
 class User(UserMixin, db.Model):
     __tablename__ = "users"
